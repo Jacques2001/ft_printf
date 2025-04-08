@@ -13,7 +13,7 @@ int print_hex_for_adress(unsigned long nb)
   return count;
 }
 
-int print_adress(void *ptr)
+int print_address(void *ptr)
 {
 	unsigned long nbr;
 

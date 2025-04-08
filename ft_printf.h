@@ -12,7 +12,7 @@ int print_string(char *str);
 int print_nbr(int nb);
 int print_hex(unsigned int hex);
 int print_Hexa(unsigned int nb);
-int print_adress(void *ptr);
+int print_address(void *ptr);
 int print_unsigned(unsigned int nb);
 
 #endif

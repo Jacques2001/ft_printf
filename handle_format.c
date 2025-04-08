@@ -37,7 +37,7 @@ int handle_format2(const char *format, va_list args, int *i)
 	else if(format[*i] == 'p')
 	{
 		ptr = va_arg(args, void *);
-		count += print_adress(ptr);
+		count += print_address(ptr);
 	}
 	else
 		count += handle_format3(format, args, i);

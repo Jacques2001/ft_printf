@@ -29,6 +29,6 @@ int main()
 	char str[] = "Hello";
 	int x = -42;
 	ft_printf("%c %s %p %d %i %u %x %X %%\n", 'c', str, &x, x, x, x, x, x);
-	printf("%c %s %p %d %i %u %x %X %%	`\n", 'c', str, &x, x, x, x, x, x);
+	printf("%c %s %p %d %i %u %x %X %%\n", 'c', str, &x, x, x, x, x, x);
 	return 0;
 }
