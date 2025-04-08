@@ -29,10 +29,10 @@ int handle_format2(const char *format, va_list args, int *i)
 	if(format[*i] == 'x' || format[*i] == 'X')
 	{
 		hex = va_arg(args, unsigned int);
-		if(format[*i] == 'x')
-			count += print_hex(hex);
-		else
+		if(format[*i] == 'X')
 			count += print_Hexa(hex);
+		else if(format[*i] == 'x')
+			count += print_hex(hex);
 	}
 	else if(format[*i] == 'p')
 	{
