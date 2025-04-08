@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
+int ft_printf(const char *format, ...);
 int handle_format(const char *format, va_list args, int *i);
 int print_char(char c);
 int print_string(char *str);
